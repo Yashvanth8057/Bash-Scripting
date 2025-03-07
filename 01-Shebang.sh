@@ -8,3 +8,5 @@ echo  -e "I \n Welcome home \n and town\t please have a \t seat\n take rest \t T
 
 
 echo -e "\e[32m I am prinitng green \e[0m"
+
+echo -e "\e[34m CHecking this color \e[0m"
