@@ -9,6 +9,11 @@ echo "my project team is: $TEAM"
 
 echo "my project which is working is: $PROJECT"
 
+echo "no of arg used in the script: $#"
+echo "prints the arg used in the script: $@"
+echo "prints the last execution comments: $?"
+
+
 
 
 # echo "Name of the team is $TEAM"
