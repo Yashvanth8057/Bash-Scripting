@@ -1,4 +1,6 @@
 a=1000 
+
+echo checking the sp var
 TEAM=$1
 PROJECT=$2
 echo "Value of a is $a"
