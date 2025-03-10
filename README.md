@@ -9,6 +9,9 @@ to set alias in the server(aws Instance)
 #git clone URL (URL which have the https path our git code)
 
  printing the content which is present in the 02-Variables.sh folder (In an instance->server)
+ 
  $ bash 02-Variables.sh
+
+ Visual Studio does have keyboard shortcuts for Comment and Uncomment, but they are the unfortunate double-shortcut combinations: Ctrl+K, Ctrl+C to comment, and Ctrl+K, Ctrl+U to uncomment.
  
 
