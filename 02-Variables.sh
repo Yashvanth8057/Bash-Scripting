@@ -34,5 +34,6 @@ echo "the market of the stock $stock which is related to $market"
 echo "the stock name is: ${stock}"
 echo 'the stock name is: ${stock}'
  echo the stock name is: ${stock}
- 
 
+
+echo "the stock which have buying call is: $stock"
