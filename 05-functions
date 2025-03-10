@@ -1,0 +1,23 @@
+#!/bin/bash
+
+collegeinfo() {
+
+Date= $ (date +%F)
+
+    echo "college joining date:$Date "
+
+    echo " the rin time of college is: $(runlevel)"
+
+    echo "the uptime is: $(uptime)"
+
+}
+
+echo "running the function again:"
+
+collegeinfo
+
+sleep 8
+
+echo "again running"
+
+collegeinfo
