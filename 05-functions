@@ -2,9 +2,8 @@
 
 collegeinfo() {
 
-Date= $ (date +%F)
 
-    echo "college joining date:$Date "
+    echo "college joining date: $(date +%F)"
 
     echo " the rin time of college is: $(runlevel)"
 
