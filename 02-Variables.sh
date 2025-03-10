@@ -25,3 +25,8 @@ stockPrice=593
 echo "the stock which have buying call is: $stock"
 echo "the stock price is: $stockPrice"
 
+#below is the command to clone the git repo to our instance:
+
+#git clone https://github.com/Yashvanth8057/Bash-Scripting.git
+
+
