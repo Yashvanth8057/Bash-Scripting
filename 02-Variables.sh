@@ -37,3 +37,9 @@ echo 'the stock name is: ${stock}'
 
 
 echo "the stock which have buying call is: $stock"
+
+date=$(date +%F)
+echo todays date is ${date}
+
+echo "Number of logged sessions on the server = $(who | wc -l)"
+
