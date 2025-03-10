@@ -25,3 +25,4 @@ stockPrice=593
 echo "the stock which have buying call is: $stock"
 echo "the stock price is: $stockPrice"
 
+
