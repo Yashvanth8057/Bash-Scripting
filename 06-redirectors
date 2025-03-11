@@ -1,21 +1,24 @@
 #!/bin/bash
 
-echo "going to run the function"
 
-start() {
+echo  "the exit code value is $(id -u)"
 
-    echo "the today date is: $(date +%F)"
+# echo "going to run the function"
 
-    echo "the previous executed code is: $?"
+# start() {
+
+#     echo "the today date is: $(date +%F)"
+
+#     echo "the previous executed code is: $?"
 
 
-}
+# }
 
-start $1
+# start $1
 
-echo "again running the function"
+# echo "again running the function"
 
-start
+# start
 
 
 
