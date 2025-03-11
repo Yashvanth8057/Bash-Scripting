@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "going to run the function"
+
+start() {
+
+    echo "the today date is: $(date +%F)"
+
+    echo "the previous executed code is: $?"
+
+
+}
+
+start $1
+
+echo "again running the function"
+
+start
