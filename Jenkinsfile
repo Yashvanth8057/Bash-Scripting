@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo -e  "this step is going to deploy the tested code/n/t/t *This is the end*" 
+                echo  "this step is going to deploy the tested code/n/t/t *This is the end*" 
             }
         }
     }
