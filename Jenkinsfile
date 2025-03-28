@@ -1,10 +1,19 @@
 pipeline {
-    agent any
-
+    agent any 
     stages {
-        stage('Hello') {
+        stage('I am building the code') { 
             steps {
-                echo 'Hello World'
+                echo "The step is building the code that's it!"
+            }
+        }
+        stage('Test') { 
+            steps {
+                echo  "In this step we are going to test the code/n and make sure it is working" 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                echo -e  "this step is going to deploy the tested code/n/t/t *This is the end*" 
             }
         }
     }
